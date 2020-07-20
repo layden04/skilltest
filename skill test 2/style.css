@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: skyblue;
+    height: 40px;
+    text-align: center;
+    padding: 1px;
+}
+
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 8000px;
+
+}
+
+.left-col, .right-col {
+    background-color: blue;
+    float: left;
+    width: 25%
+}
+
+.center-col {
+    background-color: pink;
+    float: left;
+    width: 50%;
+}
+
+.footer {
+    background-color: purple;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.ad {
+    float: right;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+}
